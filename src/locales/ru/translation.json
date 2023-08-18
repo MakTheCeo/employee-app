@@ -1,0 +1,38 @@
+{
+  "login": "Вход",
+  "username": "Имя пользователя",
+  "password": "Пароль",
+  "loginButton": "Войти",
+
+  "addEmployee": "Добавить сотрудника",
+  "searchEmployee": "Найти сотрудника",
+
+  "addEmployeeTitle": "Добавить сотрудника",
+  "registrationNumber": "Регистрационный номер",
+  "name": "Имя",
+  "surname": "Фамилия",
+  "nation": "Нация",
+  "task": "Задача",
+  "visa": "Виза",
+  "beginDateOfVisa": "Дата начала визы",
+  "endDateOfVisa": "Дата окончания визы",
+  "phone": "Телефон",
+  "agreement": "Соглашение",
+  "beginningDateOfAgreement": "Дата начала соглашения",
+  "endDateOfAgreement": "Дата окончания соглашения",
+  "salary": "Зарплата",
+  "unSalary": "Одн. Зарплата",
+  "notes": "Примечания",
+  "save": "Сохранить",
+  "cancel": "Отмена",
+
+    "russia": "Россия",
+    "uzbekistan": "Узбекистан",
+    "engineer": "Инженер",
+    "manager": "Менеджер",
+    "worker": "Рабочий",
+    "tourist": "Турист",
+    "resident": "Резидент",
+    "workVisa": "Рабочая виза"
+
+}

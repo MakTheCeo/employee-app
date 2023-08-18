@@ -1,0 +1,50 @@
+.employee-button {
+    height: 200px; /* Square shape */
+    border-radius: 5px;
+    color: white  !important;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s;
+    border: none; /* Remove borders */
+  }
+  
+  .employee-button:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    filter: brightness(0.9); /* Darken the color a bit on hover */
+  }
+  
+  .add-employee-button {
+    background-color: #007bff !important;  /* Solid blue color */
+  }
+  
+  .search-employee-button {
+    background-color: #ff0000 !important;  /* Solid red color */
+  }
+
+  .input-prefix {
+    background-color: #007bff !important;  
+    color: white  !important; ; 
+    padding: 5px 10px;
+    border: 1px solid #ced4da;
+    border-right: none; 
+    border-top-left-radius: .25rem;
+    border-bottom-left-radius: .25rem;
+  }
+  
+  .input-with-prefix {
+    border-top-left-radius: 0; 
+    border-bottom-left-radius: 0; 
+  }
+  
+  .calendar-icon {
+    color: #007bff;
+    cursor: pointer; 
+  }
+  
+  .form-group {
+    margin-bottom: 15px; 
+  }
+  

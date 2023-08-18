@@ -1,0 +1,40 @@
+{
+    "login": "Login",
+    "username": "Username",
+    "password": "Password",
+    "loginButton": "Login",
+
+    "addEmployee": "Add Employee",
+    "searchEmployee": "Search Employee",
+
+    "addEmployeeTitle": "Add Employee",
+    "registrationNumber": "Registration Number",
+    "name": "Name",
+    "surname": "Surname",
+    "nation": "Nation",
+    "task": "Task",
+    "visa": "Visa",
+    "beginDateOfVisa": "Begin Date of Visa",
+    "endDateOfVisa": "End Date of Visa",
+    "phone": "Phone",
+    "agreement": "Agreement",
+    "beginningDateOfAgreement": "Beginning Date of Agreement",
+    "endDateOfAgreement": "End Date of Agreement",
+    "salary": "Salary",
+    "unSalary": "Un. Salary",
+    "notes": "Notes",
+    "save": "Save",
+    "cancel": "Cancel",
+
+    "russia": "Russia",
+    "uzbekistan": "Uzbekistan",
+    "engineer": "Engineer",
+    "manager": "Manager",
+    "worker": "Worker",
+    "tourist": "Tourist",
+    "resident": "Resident",
+    "workVisa": "Work Visa"
+ }
+ 
+ 
+

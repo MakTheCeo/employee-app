@@ -1,0 +1,21 @@
+.table-resizable th {
+    border-right: 1px solid #ddd;
+    position: relative;
+  }
+  
+  .table-resizable th::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 5px;
+    cursor: col-resize;
+    z-index: 1;
+  }
+  
+  .table-resizable th:last-child {
+    border-right: none;
+  }
+  
+  

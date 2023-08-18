@@ -1,0 +1,38 @@
+{
+    "login": "Giriş",
+    "username": "Kullanıcı Adı",
+    "password": "Şifre",
+    "loginButton": "Giriş Yap",
+
+    "addEmployee": "Çalışan Ekle",
+  "searchEmployee": "Çalışan Ara",
+
+  "addEmployeeTitle": "Çalışan Ekle",
+  "registrationNumber": "Kayıt Numarası",
+  "name": "Ad",
+  "surname": "Soyad",
+  "nation": "Uyruk",
+  "task": "Görev",
+  "visa": "Vize",
+  "beginDateOfVisa": "Vizenin Başlangıç Tarihi",
+  "endDateOfVisa": "Vizenin Bitiş Tarihi",
+  "phone": "Telefon",
+  "agreement": "Anlaşma",
+  "beginningDateOfAgreement": "Anlaşmanın Başlangıç Tarihi",
+  "endDateOfAgreement": "Anlaşmanın Bitiş Tarihi",
+  "salary": "Maaş",
+  "unSalary": "Bir. Maaş",
+  "notes": "Notlar",
+  "save": "Kaydet",
+  "cancel": "İptal",
+
+    "russia": "Rusya",
+    "uzbekistan": "Özbekistan",
+    "engineer": "Mühendis",
+    "manager": "Yönetici",
+    "worker": "İşçi",
+    "tourist": "Turist",
+    "resident": "Sakin",
+    "workVisa": "Çalışma Vizesi"
+  }
+  
