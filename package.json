@@ -1,6 +1,7 @@
 {
   "name": "employee-app",
   "version": "1.0.0",
+  "homepage": "https://maktheceo.github.io/employee-app",
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
   "dependencies": {
@@ -827,11 +828,14 @@
     "yocto-queue": "^0.1.0"
   },
   "devDependencies": {
-    "@types/react-dom": "^18.2.7"
+    "@types/react-dom": "^18.2.7",
+    "gh-pages": "^6.0.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "react-scripts start"
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "author": "",
   "license": "ISC",
