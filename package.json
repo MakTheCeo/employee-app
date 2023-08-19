@@ -1,7 +1,6 @@
-{
+{  "homepage": "http://maktheceo.github.io/employee-app",
   "name": "employee-app",
   "version": "1.0.0",
-  "homepage": "https://maktheceo.github.io/employee-app",
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
   "dependencies": {
