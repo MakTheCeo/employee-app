@@ -1,0 +1,38 @@
+[debug] [2023-08-21T10:50:12.946Z] ----------------------------------------------------------------------
+[debug] [2023-08-21T10:50:12.948Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\makth\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2023-08-21T10:50:12.948Z] CLI Version:   12.4.8
+[debug] [2023-08-21T10:50:12.948Z] Platform:      win32
+[debug] [2023-08-21T10:50:12.949Z] Node Version:  v18.16.0
+[debug] [2023-08-21T10:50:12.949Z] Time:          Mon Aug 21 2023 13:50:12 GMT+0300 (Eastern European Summer Time)
+[debug] [2023-08-21T10:50:12.949Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-08-21T10:50:13.012Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-08-21T10:50:13.012Z] > authorizing via signed-in user (alkhatibmohammad545@gmail.com)
+[debug] [2023-08-21T10:50:13.012Z] [iam] checking project employee-project-c388d for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-08-21T10:50:13.014Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/employee-project-c388d:testIamPermissions [none]
+[debug] [2023-08-21T10:50:13.014Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/employee-project-c388d:testIamPermissions x-goog-quota-user=projects/employee-project-c388d
+[debug] [2023-08-21T10:50:13.014Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/employee-project-c388d:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-08-21T10:50:13.946Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/employee-project-c388d:testIamPermissions 200
+[debug] [2023-08-21T10:50:13.946Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/employee-project-c388d:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-08-21T10:50:13.947Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/employee-project-c388d [none]
+[debug] [2023-08-21T10:50:34.964Z] *** [apiv2] error from fetch(https://firebase.googleapis.com/v1beta1/projects/employee-project-c388d, {"headers":{},"method":"GET","signal":{}}): FetchError: request to https://firebase.googleapis.com/v1beta1/projects/employee-project-c388d failed, reason: connect ETIMEDOUT 142.251.37.42:443
+[debug] [2023-08-21T10:50:34.965Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects/employee-project-c388d (original: request to https://firebase.googleapis.com/v1beta1/projects/employee-project-c388d failed, reason: connect ETIMEDOUT 142.251.37.42:443)
+[debug] [2023-08-21T10:50:35.268Z] FirebaseError: Failed to make request to https://firebase.googleapis.com/v1beta1/projects/employee-project-c388d
+    at RetryOperation._fn (C:\Users\makth\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:239:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project employee-project-c388d. Please make sure the project exists and your account has permission to access it.
+[debug] [2023-08-21T10:50:56.962Z] ----------------------------------------------------------------------
+[debug] [2023-08-21T10:50:56.965Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\makth\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2023-08-21T10:50:56.965Z] CLI Version:   12.4.8
+[debug] [2023-08-21T10:50:56.966Z] Platform:      win32
+[debug] [2023-08-21T10:50:56.966Z] Node Version:  v18.16.0
+[debug] [2023-08-21T10:50:56.966Z] Time:          Mon Aug 21 2023 13:50:56 GMT+0300 (Eastern European Summer Time)
+[debug] [2023-08-21T10:50:56.966Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-08-21T10:50:57.045Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-08-21T10:50:57.046Z] > authorizing via signed-in user (alkhatibmohammad545@gmail.com)
+[debug] [2023-08-21T10:50:57.046Z] [iam] checking project employee-project-c388d for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-08-21T10:50:57.047Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/employee-project-c388d:testIamPermissions [none]
+[debug] [2023-08-21T10:50:57.047Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/employee-project-c388d:testIamPermissions x-goog-quota-user=projects/employee-project-c388d
+[debug] [2023-08-21T10:50:57.048Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/employee-project-c388d:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
