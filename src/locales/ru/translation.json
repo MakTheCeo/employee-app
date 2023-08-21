@@ -3,16 +3,12 @@
   "username": "Имя пользователя",
   "password": "Пароль",
   "loginButton": "Войти",
-
+  "loginFailed": "Ошибка входа. Пожалуйста, проверьте вашу электронную почту и пароль.",
+  
   "addEmployee": "Добавить сотрудника",
   "searchEmployee": "Найти сотрудника",
 
   "addEmployeeTitle": "Добавить сотрудника",
-  "registrationNumber": "Регистрационный номер",
-  "name": "Имя",
-  "surname": "Фамилия",
-  "nation": "Нация",
-  "task": "Задача",
   "visa": "Виза",
   "beginDateOfVisa": "Дата начала визы",
   "endDateOfVisa": "Дата окончания визы",
@@ -33,6 +29,18 @@
     "worker": "Рабочий",
     "tourist": "Турист",
     "resident": "Резидент",
-    "workVisa": "Рабочая виза"
+    "workVisa": "Рабочая виза",
 
+    "searchFilters": "Фильтры поиска",
+    "registrationNumber": "Регистрационный номер",
+    "name": "Имя",
+    "surname": "Фамилия",
+    "search": "Поиск",
+    "results": "Результаты",
+    "task": "Задача",
+    "nation": "Нация",
+    "balance": "Баланс",
+    "delete": "Удалить",
+    "editInfo": "Редактировать информацию",
+    "editExpenses": "Редактировать расходы"
 }

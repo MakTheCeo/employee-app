@@ -3,16 +3,13 @@
     "username": "Username",
     "password": "Password",
     "loginButton": "Login",
+    "loginFailed": "Login failed. Please check your email and password.",
+
 
     "addEmployee": "Add Employee",
     "searchEmployee": "Search Employee",
 
     "addEmployeeTitle": "Add Employee",
-    "registrationNumber": "Registration Number",
-    "name": "Name",
-    "surname": "Surname",
-    "nation": "Nation",
-    "task": "Task",
     "visa": "Visa",
     "beginDateOfVisa": "Begin Date of Visa",
     "endDateOfVisa": "End Date of Visa",
@@ -33,8 +30,21 @@
     "worker": "Worker",
     "tourist": "Tourist",
     "resident": "Resident",
-    "workVisa": "Work Visa"
- }
+    "workVisa": "Work Visa",
+
+    "searchFilters": "Search Filters",
+    "registrationNumber": "Registration Number",
+    "name": "Name",
+    "surname": "Surname",
+    "search": "Search",
+    "results": "Results",
+    "task": "Task",
+    "nation": "Nation",
+    "balance": "Balance",
+    "delete": "Delete",
+    "editInfo": "Edit Info",
+    "editExpenses": "Edit Expenses"
+    }
  
  
 

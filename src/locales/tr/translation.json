@@ -3,6 +3,7 @@
     "username": "Kullanıcı Adı",
     "password": "Şifre",
     "loginButton": "Giriş Yap",
+    "loginFailed": "Giriş başarısız. Lütfen e-posta ve şifrenizi kontrol edin.",
 
     "addEmployee": "Çalışan Ekle",
   "searchEmployee": "Çalışan Ara",
@@ -33,6 +34,16 @@
     "worker": "İşçi",
     "tourist": "Turist",
     "resident": "Sakin",
-    "workVisa": "Çalışma Vizesi"
+    "workVisa": "Çalışma Vizesi",
+
+    "searchFilters": "Arama Filtreleri",
+
+    "search": "Ara",
+    "results": "Sonuçlar",
+
+    "balance": "Bakiye",
+    "delete": "Sil",
+    "editInfo": "Bilgi Düzenle",
+    "editExpenses": "Giderleri Düzenle"
   }
   

@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; // Import Routes
-import Login from './Login';
+import Login from './components/Login';
 import EmployeeDashboard from './components/EmployeeDashboard';
 import AddEmployee from './components/AddEmployee';
 import SearchEmployee from './components/SearchEmployee'; 

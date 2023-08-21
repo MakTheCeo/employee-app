@@ -1,38 +1,43 @@
 import React from 'react';
-import '../styles/SearchEmployee.css'; // Import custom CSS
+import { useTranslation } from 'react-i18next'; // Import useTranslation
+import '../styles/SearchEmployee.css';
 
 const SearchEmployee: React.FC = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="container mt-3">
-      <h6 className="text-primary mb-3" style={{ marginTop: '20px' }}>Search Filters</h6>
+      <h6 className="text-primary mb-3" style={{ marginTop: '20px' }}>
+        {t('searchFilters')}
+      </h6>
       <div className="row mb-3 align-items-end">
         <div className="col-md-3">
-          <label className="form-label">Registration Number</label>
+          <label className="form-label">{t('registrationNumber')}</label>
           <select className="form-select"></select>
         </div>
         <div className="col-md-3">
-          <label className="form-label">Name</label>
+          <label className="form-label">{t('name')}</label>
           <select className="form-select"></select>
         </div>
         <div className="col-md-3">
-          <label className="form-label">Surname</label>
+          <label className="form-label">{t('surname')}</label>
           <select className="form-select"></select>
         </div>
         <div className="col-md-3">
-          <button className="btn btn-primary">Search</button>
+          <button className="btn btn-primary">{t('search')}</button>
         </div>
       </div>
-      <h6 className="text-primary mb-3">Results - 7</h6>
+      <h6 className="text-primary mb-3">{t('results')} - 7</h6>
       <table className="table table-resizable">
         <thead>
           <tr>
-            <th style={{ width: '15%' }}>Registration Number</th>
-            <th>Name</th>
-            <th>Surname</th>
-            <th>Task</th>
-            <th>Nation</th>
-            <th>Balance</th>
-            <th>Delete</th> 
+            <th style={{ width: '15%' }}>{t('registrationNumber')}</th>
+            <th>{t('name')}</th>
+            <th>{t('surname')}</th>
+            <th>{t('task')}</th>
+            <th>{t('nation')}</th>
+            <th>{t('balance')}</th>
+            <th>{t('delete')}</th>
           </tr>
         </thead>
         <tbody>
@@ -103,13 +108,13 @@ const SearchEmployee: React.FC = () => {
           </tr>
           
         </tbody>
-      </table>
+        </table>
       <div className="row mt-3">
         <div className="col-md-6">
-          <button className="btn btn-primary w-100">Edit Info</button>
+          <button className="btn btn-primary w-100">{t('editInfo')}</button>
         </div>
         <div className="col-md-6">
-          <button className="btn btn-secondary w-100">Edit Expenses</button>
+          <button className="btn btn-secondary w-100">{t('editExpenses')}</button>
         </div>
       </div>
     </div>
